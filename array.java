@@ -6,5 +6,17 @@ public class array {
             sum = sum + i;
         }
         System.out.println(sum);
+        System.out.println(findGreatest(a));
+    }
+
+    public static int findGreatest(int a[]) {
+        int gr = 0;
+
+        for (int i : a) {
+            if (i>gr) {
+                gr = i;
+            }
+        }
+        return gr;
     }
 }
