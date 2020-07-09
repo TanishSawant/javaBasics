@@ -6,11 +6,11 @@ class Student {
     private int rollno;
     private String name;
     
-    public void getName(String name) {
+    public void getName(final String name) {
         this.name = name;
     }
-    
-    public void getRoll(int roll) {
+
+    public void getRoll(final int roll) {
         this.rollno = roll;
     }
 
@@ -24,8 +24,8 @@ class Student {
 }
 
 public class getset {
-    public static void main(String[] args) {
-        Student foo = new Student();
+    public static void main(final String[] args) {
+        final Student foo = new Student();
         foo.getName("Pablo");
         foo.getRoll(103);
         foo.setName();
