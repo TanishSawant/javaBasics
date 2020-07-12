@@ -9,7 +9,11 @@ public class hashmap {
         map1.put("Germany", "Berlin");
         map1.put("England", "london");
 
-        System.out.println(map1.get("Germany"));
-        System.out.println(map1);
+        /* System.out.println(map1.get("Germany"));
+        System.out.println(map1); */
+
+        for (String i : map1.keySet()) {
+            System.out.println("Key : " + i + "Value : " + map1.get(i));
+        }
     }
 }
