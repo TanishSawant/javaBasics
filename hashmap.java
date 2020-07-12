@@ -13,7 +13,7 @@ public class hashmap {
         System.out.println(map1); */
 
         for (String i : map1.keySet()) {
-            System.out.println("Key : " + i + "Value : " + map1.get(i));
+            System.out.println("Key : " + i + " Value : " + map1.get(i));
         }
     }
 }
