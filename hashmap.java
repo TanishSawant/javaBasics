@@ -10,5 +10,6 @@ public class hashmap {
         map1.put("England", "london");
 
         System.out.println(map1.get("Germany"));
+        System.out.println(map1);
     }
 }
